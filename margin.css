@@ -1,69 +1,66 @@
-body{
-    background-color: #5FD85A;
-   } 
-   form {
-      text-align: center;
-   }
-   .form-row{
-      margin-bottom: 10px;
-      overflow: hidden;
-      
-   }
-   .form-row input {
-      float: center;
-      height: 40px;
-      margin-top: 15px;
-      line-height: 20px;
-      padding: 8px 28px;
-      width: 270px;
-      border: 1px solid rgb(226, 228, 227);      
-      align-content: center;
-      text-align: left;
-      font-size: 23px;
-      color: #B0C0AF;
-      
-   }
-   /*.feg-form {
-      width: 416px;
-      margin:12px auto;
+body {
+  background-color: #5FD85A;
+}
 
-   }*/
+input:focus {
+  outline: none;
+}
+
+form {
+  text-align: center;
+}
+
+.form-row{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.form-row input {
+  float: center;
+  height: 40px;
+  margin-top: 15px;
+  line-height: 20px;
+  padding: 8px 28px;
+  width: 270px;
+  border: 1px solid rgb(226, 228, 227);      
+  align-content: center;
+  text-align: left;
+  font-size: 23px;
+  color: #B0C0AF;
+}
  
+.button {
+  background-color: rgb(34, 207, 40); 
+  border: none;
+  color: white;
+  padding: 15px 122px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 4px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fafafa;
+}
+
+em {
+  font-family:  'Times New Roman';
+  color: #042012;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
  
-  .button {
-   background-color: rgb(34, 207, 40); 
-   border: none;
-   color: white;
-   padding: 15px 122px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 26px;
-   margin: 4px 4px;
-   -webkit-transition-duration: 0.4s; /* Safari */
-   transition-duration: 0.4s;
-   cursor: pointer;
-  }
-
-  .button:hover {
-   background-color: #4CAF50;
-   color: rgb(5, 32, 2);
- }
- em{
-    font-family:  'Times New Roman';
-    color: #042012;
- }
-
-
-  *{
-   /*font-family: 'Pacifico', cursive;
-   font-family: 'Cinzel', serif;
-     font-size: 20px;*/
-    font-family: 'Roboto', sans-serif;
-  }
- 
-.one  {
-   background-color: rgb(255, 255, 255);
+.one {
+  background-color: rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
@@ -75,3 +72,6 @@ body{
   box-shadow: 2px 3px 73px 0px rgba(0,0,0,0.75);
 }
 
+input::placeholder {
+  color: #ddd;
+}
